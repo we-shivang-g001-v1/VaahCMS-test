@@ -1,0 +1,28 @@
+{
+    "name": "vaahcms/blog",
+    "description": "Blog Content",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Shivang",
+            "email": "support@vaah.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VaahCms\\Modules\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "VaahCms\\Modules\\Blog\\": ""
+        }
+    }
+}
